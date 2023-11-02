@@ -26,7 +26,7 @@ const updateMovie = ({ id, payload }) => {
 
   return movies[idx];
 };
-
+// function for delete
 const deleteMovie = ({ id }) => {
   const idx = movies.findIndex((m) => m.id == id);
   if (idx === -1) {
