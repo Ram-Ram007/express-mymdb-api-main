@@ -11,6 +11,7 @@ const addMovie = ({ title, year }) => {
     title,
     year,
   };
+
   movies.push(m);
   return m;
 };
