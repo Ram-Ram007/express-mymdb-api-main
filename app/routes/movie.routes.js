@@ -1,4 +1,5 @@
 const express = require("express");
+//this router is used to redirect into the different pages
 const router = express.Router();
 
 const { validate } = require("../middlewares/validate.middleware");
