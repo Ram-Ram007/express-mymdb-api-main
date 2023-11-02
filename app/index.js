@@ -4,6 +4,7 @@ dotenv.config();
 const config = require("./config");
 
 const express = require("express");
+//morgan is used to show the log in the terminal
 const morgan = require("morgan");
 
 const { notfound } = require("./middlewares/notfound.middleware");
