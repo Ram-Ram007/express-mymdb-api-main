@@ -14,7 +14,7 @@ const addMovie = ({ title, year }) => {
   movies.push(m);
   return m;
 };
-
+//for update the movie in the api
 const updateMovie = ({ id, payload }) => {
   const idx = movies.findIndex((m) => m.id == id);
   if (idx === -1) {
